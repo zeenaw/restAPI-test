@@ -1,0 +1,30 @@
+GET http://localhost:3000/api/v1/todos
+###
+
+
+POST http://localhost:3000/api/v1/todos
+Content-Type: application/json
+
+{
+    "title": "Buy more niggers",
+    "completed": false
+}
+
+###
+
+GET http://localhost:3000/api/v1/todos/4
+
+###
+PATCH  http://localhost:3000/api/v1/todos/1
+Content-Type: application/json
+
+{
+    "completed": true
+}
+
+###
+DELETE http://localhost:3000/api/v1/todos/2
+
+###
+
+GET http://localhost:3000/api/v1/todos/

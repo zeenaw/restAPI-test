@@ -1,0 +1,20 @@
+{
+  "name": "wow-restful-api-moment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "mongoose": "^9.0.2",
+    "underscore": "^1.13.7"
+  }
+}
